@@ -1,4 +1,3 @@
-# Group-1
 ##  DST - Assessment 2  
 Comparison of neural network architectures for electricity price forecasting.
 
@@ -25,7 +24,7 @@ The report takes the following structure:
 * 06-Stacked NN
 * 07-Model Comparison + Conclusion
 
-### Data
+## Data
 
 The data used for this project is available in the Data directory.
 
