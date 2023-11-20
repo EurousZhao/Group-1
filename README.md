@@ -10,5 +10,10 @@ Topics to look into:
 - Jiaqi: CNN
 - Arun: Stacking?
 
+Performance metrics:
+- mean square error (RMSE);
+- mean absolute error (MAE);
+- mean absolute percentage error (MAPE)
+
 ### reference:  
 [LDA](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0#:~:text=LDA%20is%20a%20generative%20probabilistic,a%20set%20of%20topic%20probabilities.)
