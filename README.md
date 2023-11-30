@@ -1,6 +1,8 @@
 ##  DST - Assessment 2  
 Comparison of neural network architectures for electricity price forecasting.
 
+[colab link](https://colab.research.google.com/drive/1YaLdZBGqaUYH1k06KjGDAoBmBNh4amAB?usp=sharing)
+
 ## Project Group 
 
 * Andre
