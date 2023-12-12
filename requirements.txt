@@ -1,0 +1,16 @@
+pandas version: 1.5.3
+numpy version: 1.23.5
+matplotlib version: 3.7.1
+seaborn version: 0.12.2
+tensorflow version: 2.14.0
+statsmodels version: 0.14.0
+sklearn version: 1.2.2
+————————————————————————————
+IPython version: 7.34.0
+jupyter_client version: 6.1.12
+jupyter_core version: 5.5.0
+notebook version: 6.5.5
+____________________________
+python 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+
+Linux 5.15.120+
