@@ -1,0 +1,44 @@
+---
+title: "Assessment 2 - 01: Data and Introduction"
+output: html_notebook
+---
+
+## The brief
+
+The brief was to:
+
+* Use a combination of two data sets.
+* EDA and time series analysis were used to analyze the data.
+* Use deep neural network architectures to forecast time series energy price data.
+* Compare our models using performance metrics.
+
+## The team
+
+This is a four-person team, *Andre*,*Jiaqi*,*Ewan*, *Arun*. Everyone uses Python, and each is responsible for one model.
+
+## The data
+
+We found a good dataset for time series forecasting on Kaggle and source from: (https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather/data)
+
+There are two data sets in total, one energy-related and one weather-related. The original standard data set has been downloaded and can be found in the data folder.
+
+* /data
+  * /data/energy_dataset.csv
+  * /data/weather_features.csv
+
+### Get the data
+```
+energy_url = 'https://raw.githubusercontent.com/EurousZhao/Group-1/main/data/energy_dataset.csv'
+weather_url = 'https://raw.githubusercontent.com/EurousZhao/Group-1/main/data/weather_features.csv'
+df_energy = pd.read_csv(energy_url, parse_dates=True)
+df_weather = pd.read_csv(weather_url, parse_dates=True)
+```
+
+### Create the data output
+
+We first perform data preprocessing on raw datasets and then merge the two data into one: dataset.
+We did a lot of data preprocessing and merged the two data to ensure that we were using a high-quality dataset. It will be messy to show output here, so please refer to the report for the presentation of results.
+
+### Summary:
+
+We have now created a time series dataset for further analysis, presented in tabular form.
