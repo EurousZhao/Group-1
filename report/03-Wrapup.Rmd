@@ -1,0 +1,33 @@
+---
+title: "Wrapup"
+output: html_notebook
+---
+
+## Wrapup
+
+To forecast energy (electricity) trends and energy (electricity) prices, we use four different neural network models to forecast electricity prices. 
+We use Python to implement Convolutional Neural Networks (CNN), Time Distributed Feed-Forward Neural Networks, Long Short-term Memory Recurrent Neural Networks (LSTM), and Stacked LSTM, while also improving these models to improve accuracy.
+
+We then use Root Mean Squared Error to evaluate the accuracy of the models, which is important for judging the neural network architecture for time series forecasting.
+
+
+## Conclusions
+
+Rank the model with Root Mean Squared Error:
+
+├──────────────────────────────────────────────────┼────────┤
+├ LSTM                                             │ 10.513 │
+├──────────────────────────────────────────────────┼────────┤
+│ Bidirectional LSTMs                              │ 11.987 │
+├──────────────────────────────────────────────────┼────────┤
+│ CNN                                              │ 11.343 │
+├──────────────────────────────────────────────────┼────────┤
+│ Stacked CNN                                      │ 12.978 │
+├──────────────────────────────────────────────────┼────────┤
+│ Time-distributed Mulitlayer Perceptron           │ 11.446 │
+├──────────────────────────────────────────────────┼────────┤
+│ Optimised Time-distributed Mulitlayer Perceptron │  8.952 │
+├──────────────────────────────────────────────────┼────────┤
+│ stacked LSTM                                     │  9.84  │
+├──────────────────────────────────────────────────┼────────┤
+Therefore, we can say the Optimised Time-distributed Mulitlayer Perceptron model was the 'best'.
