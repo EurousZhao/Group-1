@@ -15,19 +15,21 @@ We then use Root Mean Squared Error to evaluate the accuracy of the models, whic
 
 Rank the model with Root Mean Squared Error:
 
+╒══════════════════════════════════════════════════╤════════╕
+│ Model                                            │   RMSE │
+╞══════════════════════════════════════════════════╪════════╡
+│ LSTM                                             │  2.157 │
 ├──────────────────────────────────────────────────┼────────┤
-├ LSTM                                             │ 10.513 │
+│ Bidirectional LSTMs                              │  2.339 │
 ├──────────────────────────────────────────────────┼────────┤
-│ Bidirectional LSTMs                              │ 11.987 │
+│ CNN                                              │  4.212 │
 ├──────────────────────────────────────────────────┼────────┤
-│ CNN                                              │ 11.343 │
+│ Stacked CNN                                      │  6.063 │
 ├──────────────────────────────────────────────────┼────────┤
-│ Stacked CNN                                      │ 12.978 │
+│ Time-distributed Mulitlayer Perceptron           │  2.717 │
 ├──────────────────────────────────────────────────┼────────┤
-│ Time-distributed Mulitlayer Perceptron           │ 11.446 │
+│ Optimised Time-distributed Mulitlayer Perceptron │  2.559 │
 ├──────────────────────────────────────────────────┼────────┤
-│ Optimised Time-distributed Mulitlayer Perceptron │  8.952 │
-├──────────────────────────────────────────────────┼────────┤
-│ stacked LSTM                                     │  9.84  │
-├──────────────────────────────────────────────────┼────────┤
-Therefore, we can say the Optimised Time-distributed Mulitlayer Perceptron model was the 'best'.
+│ stacked LSTM                                     │  3.332 │
+╘══════════════════════════════════════════════════╧════════
+Therefore, we can say the LSTM model was the 'best'.
