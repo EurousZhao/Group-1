@@ -16,13 +16,13 @@ All report content is in the directory:
 
 * Report/
 
-The report takes the following structure:
+The report takes the following general structure:
 
 * 01-Introduction
 * 02-EDA
-* 03-MLP
+* 03-LSTM
 * 04-CNN
-* 05-LSTM
+* 05-MLP
 * 06-Stacked NN
 * 07-Model Comparison + Conclusion
 
@@ -35,14 +35,9 @@ The data used for this project is available in the Data directory.
 Our working is shown in our own directories.
 
 
-Topics to look into:
+Topics we looked into:
 - Andre: LSTM
 - Ewan: MLP
 - Jiaqi: CNN
-- Arun: Stacking?
-
-Performance metrics:
-- mean square error (RMSE);
-- mean absolute error (MAE);
-- mean absolute percentage error (MAPE)
+- Arun: Stacked NN
 
