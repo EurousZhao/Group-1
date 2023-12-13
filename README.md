@@ -19,7 +19,7 @@ All report content is in the directory:
 The report takes the following general structure:
 
 * 01-Introduction
-* 02-EDA
+* 02-EDA + Time series Analysis
 * 03-LSTM
 * 04-CNN
 * 05-MLP
